@@ -36,6 +36,8 @@ Additional features :
 - **custom CSS style** : overloads default style and turn your guide into a _beautiful guide_
 - **position and orientation** : attach a guide to any HTML element with JQuery selector
 - **dynamics** : add your own buttons to a guide and define js handler
+- **jump** : a guided tour can also go from page to another (see demo)
+- **highlight** : display overlay except for the highlighted element
 
 With some imaginaton, a boring tour can become a great interactive user experience ! I hope it will be useful to someone...
 
@@ -49,5 +51,9 @@ _note that the EGuiders zip file to download includes the demo sample code._
 Please report any issue in the Forum discussion thread and not as a comment in this page.
 
 ##Changes
+###version 1.1.0.0
+* updated to Guider 1.2.8 new plugin options (autoFocus, closeOnEscape, isHashable, onClose, onHide)
+* demo pages updated
+
 ###version 1.0.0.0
-- initial release
+* initial release
